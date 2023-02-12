@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #feab5e;
+    font-family: 'Quicksand';
+}
+
+.container {
+    margin: 10% auto;
+    width: 400px;
+    border: 3px solid black;
+    background: white;
+    text-align: center;
+    padding: 40px 0;
+    .error {
+        display: none;
+        color: red;
+    }
+    span {
+        color:#feab5e;
+    }
+    input, button {
+        outline: none;
+        border: 2px solid black;
+        height: 40px;
+        font-size: 20px;
+    }
+    img, h1, input, button {
+        margin-bottom: 20px;
+    }
+    input {
+        width: 70%;
+        padding-left: 10px;
+    }
+    button {
+        width: 20%;
+        margin-left: -5px;
+        &:hover {
+            cursor: pointer;
+            background: #ffb876;
+        }
+    }
+}
